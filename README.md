@@ -1,17 +1,6 @@
 # Data Cleaning Course Project
 
-**Instructions for reading the txt files**
 
-* address <- "https://s3.amazonaws.com/coursera-uploads/user-cabdc5b515f7161a4178af81/973498/asst-3/e49f4860b86111e4a35fb9c92e99b604.txt"
-* address <- sub("^https", "http", address)
-* data <- read.table(url(address), header = TRUE) 
-* View(data)
-
-
-* address <- "https://s3.amazonaws.com/coursera-uploads/user-cabdc5b515f7161a4178af81/973498/asst-3/dc163960b86111e4a999c70c1812e3d8.txt"
-* address <- sub("^https", "http", address)
-* data <- read.table(url(address), header = TRUE) 
-* View(data)
 
 
 **Project Instructions**
@@ -39,4 +28,17 @@
 	* Use reshape2 to melt the dataset and recast it
 *	Write the summarized output to text files (mean_ActivityData.txt and mean_SubjectData.txt)
 
+
+
 **Instructions for reading the txt files**
+
+* address <- "https://s3.amazonaws.com/coursera-uploads/user-cabdc5b515f7161a4178af81/973498/asst-3/e49f4860b86111e4a35fb9c92e99b604.txt"
+* address <- sub("^https", "http", address)
+* data <- read.table(url(address), header = TRUE)
+* View(data)
+
+
+* address <- "https://s3.amazonaws.com/coursera-uploads/user-cabdc5b515f7161a4178af81/973498/asst-3/dc163960b86111e4a999c70c1812e3d8.txt"
+* address <- sub("^https", "http", address)
+* data <- read.table(url(address), header = TRUE)
+* View(data)
