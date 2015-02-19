@@ -1,6 +1,6 @@
 # Data Cleaning Course Project
 
-* Project Instructions *
+** Project Instructions **
 
 1.	Merges the training and the test sets to create one data set.
 2.	Extracts only the measurements on the mean and standard deviation for each measurement. 
@@ -9,7 +9,7 @@
 5.	From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-*Step by Step*
+** Logical Steps **
 
 *	Read txt files using read.table
 *	Cbind x,y and subject files for train and test
