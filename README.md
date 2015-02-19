@@ -23,4 +23,5 @@
 	* Create a columnNames character vector and set to column names of subsetData using the names() command
 *	Create a second tiny independent data set with an average of each variable for each activity and each subject.
 	* Use reshape2 to melt the dataset and recast it
+*	Write the summarized output to text files (mean_ActivityData.txt and mean_SubjectData.txt)
 
