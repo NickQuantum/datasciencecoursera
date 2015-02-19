@@ -23,8 +23,8 @@ fBodyGyroJerkMag
 
 List of column Names for each Variable
 
-1."Subject"/"Activity"
-2."tBodyAcc-mean()-X"
+1. "Subject"/"Activity"
+2. "tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
 "tBodyAcc-mean()-Z"
 "tBodyAcc-std()-X"
