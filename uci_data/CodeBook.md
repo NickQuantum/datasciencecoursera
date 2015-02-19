@@ -1,4 +1,4 @@
-#Data Dictionary for mean_ActivityData.txt and mean_SubjectData.txt
+##Data Dictionary for mean_ActivityData.txt and mean_SubjectData.txt
 
 The files contain the average of the mean and std deviations along the X,Y and Z axes (where applicable) grouped by the 30 Subjects and 6 Activities
 respectively for the following variables
@@ -23,8 +23,8 @@ fBodyGyroJerkMag
 
 List of column Names for each Variable
 
-"Subject"/"Activity"
-"tBodyAcc-mean()-X"
+1."Subject"/"Activity"
+2."tBodyAcc-mean()-X"
 "tBodyAcc-mean()-Y"
 "tBodyAcc-mean()-Z"
 "tBodyAcc-std()-X"
